@@ -1,1 +1,66 @@
-**to be use for external style sheet**
+	body{
+		background-color: lavender;
+	  background-image:url("images/bg-left.png"), url("images/bg-right.png");
+	  background-repeat: repeat-y;
+	  background-position: left top, right top;
+	  background-attachment: fixed; 
+	  font-family: Verdana, sans-serif;
+	  margin: 0;
+	}
+	
+	/************************************************************************************/
+	
+	/* Header, Footer, & Nav */
+	.bars{
+	  background-color: lightslategray;
+	  color:white;
+	  padding: 5px 0px 5px 0px;
+	  }
+	
+	nav ul {
+    margin: 0;
+    padding: 0;
+	}
+
+	nav li{
+		display: inline;
+	}
+	
+	nav li a:link, nav li a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+	margin: 0px 25px 0px 0px;
+	}
+
+	nav li a:hover, nav li a:active{
+    background-color: lightsteelblue;
+	color: black;
+	}
+	
+	#current{ /* use for current page */
+	text-decoration: none;
+	background-color: lightsteelblue;
+	color: black;
+	padding: 5px 5px;
+	margin: 0px 25px 0px 0px;
+	}
+	
+	footer{
+		font-size: small;
+	}
+	
+	/************************************************************************************/
+	
+	/* Main Content */
+	.center{
+	  text-align: center;
+	}
+
+	#content{
+	  padding: 25px 100px;
+	}
+	
+	p, h3{
+	  padding: 0px 25px;
+	}
